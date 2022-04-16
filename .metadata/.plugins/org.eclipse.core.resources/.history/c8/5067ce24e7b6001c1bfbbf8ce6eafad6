@@ -1,0 +1,10 @@
+#include "bibloteca.h"
+
+float IngresarNumero(){
+	float numero;
+
+	scanf("%f", &numero);
+
+	return numero;
+}
+

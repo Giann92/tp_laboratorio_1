@@ -1,0 +1,131 @@
+#include "biblioteca.h"
+
+float IngresarNumero() {
+	float numero;
+
+	scanf("%f", &numero);
+	while (numero <= 0) {
+		printf(	"Error , numero no puede ser cero o negativo. reigrese por favor \n");
+		scanf("%f", &numero);
+	}
+	return numero;
+}
+
+float DescTarjetaDevitoLatam(float z, float x) {
+
+	float desc;
+	float respuesta;
+	float totalPrecio = z * x;
+	desc = totalPrecio * 0.1;
+	respuesta = totalPrecio - desc;
+
+	return respuesta;
+}
+float DescTarjetaDevitoAero(float y, float x) {
+
+	float desc;
+	float respuesta;
+	float totalPrecio = y * x;
+	desc = totalPrecio * 0.1;
+	respuesta = totalPrecio - desc;
+
+	return respuesta;
+}
+float InteresTCAero(float y, float x) {
+	float aumento;
+	float respuesta;
+	float totalPrecio = y * x;
+	aumento = totalPrecio * 0.25;
+	respuesta = totalPrecio + aumento;
+
+	return respuesta;
+}
+float InteresTCLatam(float z, float x) {
+
+	float aumento;
+	float respuesta;
+	float totalPrecio = z * x;
+	aumento = totalPrecio * 0.25;
+	respuesta = totalPrecio + aumento;
+
+	return respuesta;
+}
+long ValorBitcoinAero(float y , float x) {
+	long respuesta;
+	long bitcoin;
+	float totalPrecio;
+	bitcoin = 4778869.90;
+
+	totalPrecio = y * x;
+
+	respuesta = totalPrecio / bitcoin;
+
+	return respuesta;
+}
+
+long ValorBitcoinLatam(float z , float x) {
+	long respuesta;
+	long bitcoin;
+	float totalPrecio;
+	bitcoin = 4778869.90;
+
+	totalPrecio = z * x;
+
+	respuesta = totalPrecio / bitcoin;
+
+	return respuesta;
+}
+
+float PrecioKmtrsAero(float y, float x) {
+
+	float respuesta;
+
+	respuesta = y / x;
+
+	return respuesta;
+}
+float PrecioKmtrsLatam(float z, float x) {
+
+	float respuesta;
+
+	respuesta = z / x;
+
+	return respuesta;
+}
+
+float DifPrecio (float y , float z , float x){
+
+	float precioAero = y;
+	float precioLatam = z;
+	float kmtrs = x;
+	float precioTotalAero;
+	float precioTotalLatam;
+	float rtaDifPrecio;
+
+	precioTotalAero =  precioAero * kmtrs;
+	precioTotalLatam = precioLatam * kmtrs;
+
+	rtaDifPrecio = precioTotalLatam -  precioTotalAero ;
+
+	return rtaDifPrecio;
+}
+
+float CargaForzada(float y , float z , float x){
+
+	int respuesta;
+	float kmtrs = x;
+	float precioAero = y;
+	float precioLatam = z;
+
+
+
+
+	x = 7090;
+	z = 2222;
+	y = 444;
+	printf("los kmtrs son %f" , x);
+	printf("El precio Aero es : %f" , y);
+	printf("El precio Latam es : %f" , z);
+	return respuesta;
+}
+

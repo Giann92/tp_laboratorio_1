@@ -1,0 +1,39 @@
+#include "bibloteca.h"
+
+float IngresarNumero(){
+	float numero;
+
+	scanf("%f", &numero);
+
+	return numero;
+}
+
+float kmts(float x){
+
+	kmts = x;
+
+	return kmts;
+}
+
+float PrecioVueloAerolineas(float y )
+{
+	PrecioVueloAerolineas = y;
+
+	return PrecioVueloAerolineas;
+}
+
+float PrecioVueloLatam(float z){
+
+	PrecioVueloLatam= z;
+
+	return PrecioVueloLatam;
+}
+
+float DesTarjetaDevito(float num){
+
+	float respuesta;
+
+	DesTarjetaDevito = num*10/100;
+
+	return respuesta;
+}

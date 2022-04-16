@@ -1,0 +1,19 @@
+
+
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+#include <stdio.h>
+/// @fn float IngresarNumero()
+/// @brief
+///
+/// @pre
+/// @post
+/// @return
+
+float IngresarNumero();
+float DesTarjetaDevitoLatam(float num);
+float InteresTC(float num);
+long ValorBitcoin(long num);
+float PrecioKmtrs(float num , float x);
+
+#endif /* BIBLIOTECA_H_ */

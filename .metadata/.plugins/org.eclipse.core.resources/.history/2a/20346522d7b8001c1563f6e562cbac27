@@ -1,0 +1,16 @@
+
+
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+
+
+float IngresarNumero();
+float kmts(float x);
+float PrecioVueloAerolineas(float y );
+float PrecioVueloLatam(float z);
+float DesTarjetaDevito(float num);
+float InteresTC(float num);
+long ValorBitcoin(long num);
+float PrecioKmtrs(float num , float x);
+
+#endif /* BIBLIOTECA_H_ */

@@ -1,0 +1,1874 @@
+11:23:46 **** Rebuild of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:76:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+  }while(opcion != 6);
+  ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:13:7: error: lvalue required as left operand of assignment
+  kmts = x;
+       ^
+..\src\biblioteca.c:15:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return kmts;
+         ^~~~
+..\src\biblioteca.c: In function 'PrecioVueloAerolineas':
+..\src\biblioteca.c:20:24: error: lvalue required as left operand of assignment
+  PrecioVueloAerolineas = y;
+                        ^
+..\src\biblioteca.c:22:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return PrecioVueloAerolineas;
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioVueloLatam':
+..\src\biblioteca.c:27:18: error: lvalue required as left operand of assignment
+  PrecioVueloLatam= z;
+                  ^
+..\src\biblioteca.c:29:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return PrecioVueloLatam;
+         ^~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'DesTarjetaDevito':
+..\src\biblioteca.c:36:19: error: lvalue required as left operand of assignment
+  DesTarjetaDevito =( num*10)/100;
+                   ^
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:44:12: error: lvalue required as left operand of assignment
+  InteresTC = (num*25)/100;
+            ^
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:53:16: error: lvalue required as left operand of assignment
+   ValorBitcoin = num / bitcoin;
+                ^
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:62:15: error: lvalue required as left operand of assignment
+   PrecioKmtrs = num / x;
+               ^
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\biblioteca.c: In function 'PrecioVueloAerolineas':
+..\src\biblioteca.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\biblioteca.c: In function 'PrecioVueloLatam':
+..\src\biblioteca.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:24:56 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:77:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+  }while(opcion != 6);
+  ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:13:7: error: lvalue required as left operand of assignment
+  kmts = x;
+       ^
+..\src\biblioteca.c:15:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return kmts;
+         ^~~~
+..\src\biblioteca.c: In function 'PrecioVueloAerolineas':
+..\src\biblioteca.c:20:24: error: lvalue required as left operand of assignment
+  PrecioVueloAerolineas = y;
+                        ^
+..\src\biblioteca.c:22:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return PrecioVueloAerolineas;
+         ^~~~~~~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioVueloLatam':
+..\src\biblioteca.c:27:18: error: lvalue required as left operand of assignment
+  PrecioVueloLatam= z;
+                  ^
+..\src\biblioteca.c:29:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return PrecioVueloLatam;
+         ^~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'DesTarjetaDevito':
+..\src\biblioteca.c:36:19: error: lvalue required as left operand of assignment
+  DesTarjetaDevito =( num*10)/100;
+                   ^
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:44:12: error: lvalue required as left operand of assignment
+  InteresTC = (num*25)/100;
+            ^
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:53:16: error: lvalue required as left operand of assignment
+   ValorBitcoin = num / bitcoin;
+                ^
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:62:15: error: lvalue required as left operand of assignment
+   PrecioKmtrs = num / x;
+               ^
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\biblioteca.c: In function 'PrecioVueloAerolineas':
+..\src\biblioteca.c:23:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+..\src\biblioteca.c: In function 'PrecioVueloLatam':
+..\src\biblioteca.c:30:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:27:28 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:13:7: error: lvalue required as left operand of assignment
+  kmts = x;
+       ^
+..\src\biblioteca.c:15:9: error: incompatible types when returning type 'float (*)(float)' but 'float' was expected
+  return kmts;
+         ^~~~
+..\src\biblioteca.c:12:8: warning: unused variable 'kmtrs' [-Wunused-variable]
+  float kmtrs;
+        ^~~~~
+..\src\biblioteca.c: In function 'DesTarjetaDevito':
+..\src\biblioteca.c:39:19: error: lvalue required as left operand of assignment
+  DesTarjetaDevito =( num*10)/100;
+                   ^
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:46:8: warning: variable 'InteresTC' set but not used [-Wunused-but-set-variable]
+  float InteresTC;
+        ^~~~~~~~~
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:55:9: warning: variable 'ValorBitcoin' set but not used [-Wunused-but-set-variable]
+   long  ValorBitcoin;
+         ^~~~~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:64:8: warning: variable 'PrecioKmtrs' set but not used [-Wunused-but-set-variable]
+  float PrecioKmtrs;
+        ^~~~~~~~~~~
+..\src\biblioteca.c: In function 'kmts':
+..\src\biblioteca.c:16:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+11:27:44 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'DesTarjetaDevito':
+..\src\biblioteca.c:39:19: error: lvalue required as left operand of assignment
+  DesTarjetaDevito =( num*10)/100;
+                   ^
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:46:8: warning: variable 'InteresTC' set but not used [-Wunused-but-set-variable]
+  float InteresTC;
+        ^~~~~~~~~
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:55:9: warning: variable 'ValorBitcoin' set but not used [-Wunused-but-set-variable]
+   long  ValorBitcoin;
+         ^~~~~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:64:8: warning: variable 'PrecioKmtrs' set but not used [-Wunused-but-set-variable]
+  float PrecioKmtrs;
+        ^~~~~~~~~~~
+11:28:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'DescTarjetaDevito':
+..\src\biblioteca.c:36:8: warning: variable 'DescTarjetaDevito' set but not used [-Wunused-but-set-variable]
+  float DescTarjetaDevito;
+        ^~~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:46:8: warning: variable 'InteresTC' set but not used [-Wunused-but-set-variable]
+  float InteresTC;
+        ^~~~~~~~~
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:55:9: warning: variable 'ValorBitcoin' set but not used [-Wunused-but-set-variable]
+   long  ValorBitcoin;
+         ^~~~~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:64:8: warning: variable 'PrecioKmtrs' set but not used [-Wunused-but-set-variable]
+  float PrecioKmtrs;
+        ^~~~~~~~~~~
+..\src\biblioteca.c: In function 'DescTarjetaDevito':
+..\src\biblioteca.c:41:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:50:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+..\src\biblioteca.c: In function 'ValorBitcoin':
+..\src\biblioteca.c:60:10: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+   return respuesta;
+          ^~~~~~~~~
+..\src\biblioteca.c: In function 'PrecioKmtrs':
+..\src\biblioteca.c:70:10: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+   return respuesta;
+          ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+11:30:56 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'DescTarjetaDevito':
+..\src\biblioteca.c:36:8: warning: variable 'DescTarjetaDevito' set but not used [-Wunused-but-set-variable]
+  float DescTarjetaDevito;
+        ^~~~~~~~~~~~~~~~~
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:46:8: warning: variable 'InteresTC' set but not used [-Wunused-but-set-variable]
+  float InteresTC;
+        ^~~~~~~~~
+..\src\biblioteca.c: In function 'DescTarjetaDevito':
+..\src\biblioteca.c:41:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+..\src\biblioteca.c: In function 'InteresTC':
+..\src\biblioteca.c:50:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+11:31:40 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:33:30 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:77:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+  }while(opcion != 6);
+  ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:34:34 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:77:2: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+  }while(opcion != 6);
+  ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:35:18 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:53:5: warning: unused variable 'opcion' [-Wunused-variable]
+ int opcion;
+     ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:35:56 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:53:5: warning: unused variable 'opcion' [-Wunused-variable]
+ int opcion;
+     ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:36:11 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:53:5: warning: unused variable 'opcion' [-Wunused-variable]
+ int opcion;
+     ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:36:28 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:53:5: warning: unused variable 'opcion' [-Wunused-variable]
+ int opcion;
+     ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:37:13 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:53:5: warning: unused variable 'opcion' [-Wunused-variable]
+ int opcion;
+     ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:45:29 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+..\src\tp1.c:79:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   switch(opcion){
+   ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:46:32 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+..\src\tp1.c:79:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   switch(opcion){
+   ^~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+11:47:33 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:78:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%d" , opcion);
+           ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+..\src\tp1.c:78:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   scanf("%d" , opcion);
+   ^~~~~~~~~~~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+11:49:24 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:78:11: warning: format '%i' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%i" , opcion);
+           ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+..\src\tp1.c:78:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   scanf("%i" , opcion);
+   ^~~~~~~~~~~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:51:54 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:78:11: warning: format '%i' expects argument of type 'int *', but argument 2 has type 'int' [-Wformat=]
+   scanf("%i" , opcion);
+           ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+..\src\tp1.c:78:3: warning: 'opcion' is used uninitialized in this function [-Wuninitialized]
+   scanf("%i" , opcion);
+   ^~~~~~~~~~~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:53:07 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+11:53:16 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+11:54:00 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+12:01:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:92:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de débito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:93:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de crédito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+12:21:07 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:92:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:93:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+12:22:47 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:92:47: warning: unknown conversion type character 0xa in format [-Wformat=]
+    printf("a) Tarjeta de debito descuento 10% \n");
+                                               ^
+..\src\tp1.c:93:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:56:5: warning: variable 'z' set but not used [-Wunused-but-set-variable]
+ int z;
+     ^
+..\src\tp1.c:55:5: warning: variable 'y' set but not used [-Wunused-but-set-variable]
+ int y;
+     ^
+..\src\tp1.c:54:5: warning: variable 'x' set but not used [-Wunused-but-set-variable]
+ int x;
+     ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:27:32 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:93:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:94:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'IngresarNumero':
+..\src\biblioteca.c:6:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d", &numero);
+          ^
+..\src\biblioteca.c:9:10: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'float *' [-Wformat=]
+  scanf("%d", &numero);
+          ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:28:20 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:28:28 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:28:37 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:29:15 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+20:03:11 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+20:04:13 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:93:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:94:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+20:04:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+20:04:48 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:93:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:94:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+21:09:05 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+src\tp1.o: In function `main':
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:96: undefined reference to `DesTarjetaDevito'
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:97: undefined reference to `DesTarjetaDevito'
+collect2.exe: error: ld returned 1 exit status
+21:14:33 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+src\tp1.o: In function `main':
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:97: undefined reference to `DesTarjetaDevito'
+collect2.exe: error: ld returned 1 exit status
+21:15:50 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevito' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevito(z)
+                  ^~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:4: error: expected ';' before 'printf'
+    printf("b) Tarjeta de credito (interés 25%) \n");
+    ^~~~~~
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+21:16:01 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevito' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevito(z);
+                  ^~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+18:53:51 **** Rebuild of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevito' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevito(z);
+                  ^~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+18:57:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevito' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevito(z);
+                  ^~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+18:57:47 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:25:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c:26:7: error: redefinition of 'DescTarjetaDevito'
+ float DescTarjetaDevito(float y , float x){
+       ^~~~~~~~~~~~~~~~~
+..\src\biblioteca.c:18:7: note: previous definition of 'DescTarjetaDevito' was here
+ float DescTarjetaDevito(float z , float x){
+       ^~~~~~~~~~~~~~~~~
+..\src\biblioteca.c:43:7: error: redefinition of 'InteresTC'
+ float InteresTC(float y){
+       ^~~~~~~~~
+..\src\biblioteca.c:34:7: note: previous definition of 'InteresTC' was here
+ float InteresTC(float z){
+       ^~~~~~~~~
+..\src\biblioteca.c:62:6: error: redefinition of 'ValorBitcoin'
+ long ValorBitcoin(long y){
+      ^~~~~~~~~~~~
+..\src\biblioteca.c:52:6: note: previous definition of 'ValorBitcoin' was here
+ long ValorBitcoin(long z){
+      ^~~~~~~~~~~~
+19:26:50 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:89:8: warning: implicit declaration of function 'PrecioVueloAerolineas' [-Wimplicit-function-declaration]
+    y = PrecioVueloAerolineas(IngresarNumero());
+        ^~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:91:8: warning: implicit declaration of function 'PrecioVueloLatam' [-Wimplicit-function-declaration]
+    z = PrecioVueloLatam(IngresarNumero());
+        ^~~~~~~~~~~~~~~~
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevito' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevito(z);
+                  ^~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+src\tp1.o: In function `main':
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:89: undefined reference to `PrecioVueloAerolineas'
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:91: undefined reference to `PrecioVueloLatam'
+C:\Users\LENOVO\Desktop\tp_laboratorio_1\TP_[1]\tp1\Debug/../src/tp1.c:97: undefined reference to `DescTarjetaDevito'
+collect2.exe: error: ld returned 1 exit status
+19:29:07 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:30:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:98:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:30:59 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:32:13 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:32:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:38:01 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:39:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:39:19 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:40:20 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("a) Tarjeta de debito (descuento 10%) \n");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:42:26 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:46: warning: unknown conversion type character 0xa in format [-Wformat=]
+    printf("a Tarjeta de debito descuento 10% \n");
+                                              ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:44:19 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+     printf("a) Tarjeta de ebito (descuento 10%)");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:44:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:44:55 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:95:47: warning: unknown conversion type character ')' in format [-Wformat=]
+     printf("a) Tarjeta de ebito (descuento %10)");
+                                               ^
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:47:21 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:99:46: warning: unknown conversion type character ')' in format [-Wformat=]
+    printf("b) Tarjeta de credito (interés 25%) \n");
+                                              ^
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:48:20 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:48:24 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:52:07 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+19:52:47 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:54:29 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:56:04 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:97:18: warning: implicit declaration of function 'DescTarjetaDevitoLatam' [-Wimplicit-function-declaration]
+    rtaDescLatam= DescTarjetaDevitoLatam(z, x);
+                  ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+19:56:07 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:57:12 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+19:58:25 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:57:7: warning: unused variable 'rtaDescAero' [-Wunused-variable]
+ float rtaDescAero;
+       ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+20:41:36 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+20:49:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:104:19: error: 'ValorBitcoin' undeclared (first use in this function)
+     rtaBtcLatam = ValorBitcoin
+                   ^~~~~~~~~~~~
+..\src\tp1.c:104:19: note: each undeclared identifier is reported only once for each function it appears in
+..\src\tp1.c:105:5: error: expected ';' before 'printf'
+     printf("d) Mostrar precio por km (precio unitario) \n");
+     ^~~~~~
+..\src\tp1.c:62:8: warning: variable 'rtaBtcLatam' set but not used [-Wunused-but-set-variable]
+   long rtaBtcLatam;
+        ^~~~~~~~~~~
+..\src\tp1.c:61:8: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+   long rtaBtcAero;
+        ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+20:52:50 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:62:8: warning: unused variable 'rtaBtcLatam' [-Wunused-variable]
+   long rtaBtcLatam;
+        ^~~~~~~~~~~
+..\src\tp1.c:61:8: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+   long rtaBtcAero;
+        ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+20:53:59 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:116:46: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+    printf("c) Precio pagando con bitcoin : %lf \n" , rtaBtcLatam);
+                                              ^
+..\src\tp1.c:61:8: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+   long rtaBtcAero;
+        ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+20:54:19 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:116:46: warning: unknown conversion type character 0x20 in format [-Wformat=]
+    printf("c) Precio pagando con bitcoin : %l \n" , rtaBtcLatam);
+                                              ^
+..\src\tp1.c:116:11: warning: too many arguments for format [-Wformat-extra-args]
+    printf("c) Precio pagando con bitcoin : %l \n" , rtaBtcLatam);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:61:8: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+   long rtaBtcAero;
+        ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+20:56:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:8: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+   long rtaBtcAero;
+        ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+21:09:40 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:02:10 **** Rebuild of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:03:53 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:07:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:123:9: error: label at end of compound statement
+    case 5:
+         ^
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+13:07:29 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:123:9: error: label at end of compound statement
+    case 5:
+         ^
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+13:08:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:17:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+13:18:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+13:19:37 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:20:53 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+13:20:56 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+13:22:06 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:23:23 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+13:28:11 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:61:7: warning: unused variable 'rtaBtcAero' [-Wunused-variable]
+  long rtaBtcAero;
+       ^~~~~~~~~~
+..\src\tp1.c:59:8: warning: variable 'rtaInteresAero' set but not used [-Wunused-but-set-variable]
+  float rtaInteresAero;
+        ^~~~~~~~~~~~~~
+..\src\tp1.c:57:8: warning: variable 'rtaDescAero' set but not used [-Wunused-but-set-variable]
+  float rtaDescAero;
+        ^~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+15:02:49 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:126:47: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+     printf("c) Precio pagando con bitcoin : %lf \n", rtaBtcAero);
+                                               ^
+..\src\tp1.c:126:5: warning: 'rtaBtcAero' may be used uninitialized in this function [-Wmaybe-uninitialized]
+     printf("c) Precio pagando con bitcoin : %lf \n", rtaBtcAero);
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:18:28 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:136:47: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+     printf("c) Precio pagando con bitcoin : %lf \n", rtaBtcAero);
+                                               ^
+..\src\tp1.c:64:8: warning: variable 'rtaPrecioUnitarioLatam' set but not used [-Wunused-but-set-variable]
+  float rtaPrecioUnitarioLatam;
+        ^~~~~~~~~~~~~~~~~~~~~~
+..\src\tp1.c:63:8: warning: variable 'rtaPrecioUnitarioAero' set but not used [-Wunused-but-set-variable]
+  float rtaPrecioUnitarioAero;
+        ^~~~~~~~~~~~~~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+15:19:52 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:136:47: warning: format '%lf' expects argument of type 'double', but argument 2 has type 'long int' [-Wformat=]
+     printf("c) Precio pagando con bitcoin : %lf \n", rtaBtcAero);
+                                               ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+15:20:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+15:33:03 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:66:6: warning: unused variable 'flagOpcion' [-Wunused-variable]
+  int flagOpcion = 0;
+      ^~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+15:33:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+15:34:26 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+15:36:45 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:36:49 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+15:45:30 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:119:8: warning: unused variable 'precioLatam' [-Wunused-variable]
+  float precioLatam = z;
+        ^~~~~~~~~~~
+..\src\biblioteca.c:118:8: warning: unused variable 'precioAero' [-Wunused-variable]
+  float precioAero = y;
+        ^~~~~~~~~~
+..\src\biblioteca.c:117:8: warning: unused variable 'kmtrs' [-Wunused-variable]
+  float kmtrs = x;
+        ^~~~~
+..\src\biblioteca.c:128:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:45:33 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+15:48:37 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:118:8: warning: unused variable 'precioLatam' [-Wunused-variable]
+  float precioLatam = z;
+        ^~~~~~~~~~~
+..\src\biblioteca.c:117:8: warning: unused variable 'precioAero' [-Wunused-variable]
+  float precioAero = y;
+        ^~~~~~~~~~
+..\src\biblioteca.c:116:8: warning: unused variable 'kmtrs' [-Wunused-variable]
+  float kmtrs = x;
+        ^~~~~
+..\src\biblioteca.c:127:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:48:49 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+15:50:00 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:118:8: warning: unused variable 'precioLatam' [-Wunused-variable]
+  float precioLatam = z;
+        ^~~~~~~~~~~
+..\src\biblioteca.c:117:8: warning: unused variable 'precioAero' [-Wunused-variable]
+  float precioAero = y;
+        ^~~~~~~~~~
+..\src\biblioteca.c:116:8: warning: unused variable 'kmtrs' [-Wunused-variable]
+  float kmtrs = x;
+        ^~~~~
+..\src\biblioteca.c:129:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+15:50:04 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+15:50:38 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:118:8: warning: unused variable 'precioLatam' [-Wunused-variable]
+  float precioLatam = z;
+        ^~~~~~~~~~~
+..\src\biblioteca.c:117:8: warning: unused variable 'precioAero' [-Wunused-variable]
+  float precioAero = y;
+        ^~~~~~~~~~
+..\src\biblioteca.c:116:8: warning: unused variable 'kmtrs' [-Wunused-variable]
+  float kmtrs = x;
+        ^~~~~
+..\src\biblioteca.c:129:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+Info: Nothing to build for tp1
+16:01:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:114:1: error: number of arguments doesn't match prototype
+ float CargaForzada() {
+ ^~~~~
+In file included from ..\src\biblioteca.c:1:0:
+..\src\biblioteca.h:23:7: error: prototype declaration
+ float CargaForzada(float y , float z , float x);
+       ^~~~~~~~~~~~
+..\src\biblioteca.c:166:9: error: incompatible types when returning type 'float (*)(float,  float,  float)' but 'float' was expected
+  return CargaForzada;
+         ^~~~~~~~~~~~
+..\src\biblioteca.c:128:8: warning: unused variable 'rtaCargaF' [-Wunused-variable]
+  float rtaCargaF;
+        ^~~~~~~~~
+..\src\biblioteca.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:02:17 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:114:1: error: number of arguments doesn't match prototype
+ float CargaForzada() {
+ ^~~~~
+In file included from ..\src\biblioteca.c:1:0:
+..\src\biblioteca.h:23:7: error: prototype declaration
+ float CargaForzada(float y , float z , float x);
+       ^~~~~~~~~~~~
+..\src\biblioteca.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:02:59 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:03:29 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:03:51 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:166:9: error: incompatible types when returning type 'float (*)()' but 'float' was expected
+  return CargaForzada;
+         ^~~~~~~~~~~~
+..\src\biblioteca.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:09:35 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:166:9: error: incompatible types when returning type 'float (*)()' but 'float' was expected
+  return *CargaForzada;
+         ^
+..\src\biblioteca.c:167:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:10:25 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:167:9: error: 'respuesta' undeclared (first use in this function)
+  return respuesta;
+         ^~~~~~~~~
+..\src\biblioteca.c:167:9: note: each undeclared identifier is reported only once for each function it appears in
+..\src\biblioteca.c:116:8: warning: unused variable 'repuesta' [-Wunused-variable]
+  float repuesta;
+        ^~~~~~~~
+..\src\biblioteca.c:168:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+16:10:55 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:167:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:13:10 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:147:15: error: incompatible type for argument 1 of 'printf'
+        printf(CargaForzada());
+               ^~~~~~~~~~~~
+In file included from ..\src\tp1.c:47:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'float'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\tp1.c:66:8: warning: unused variable 'rtaCargaF' [-Wunused-variable]
+  float rtaCargaF;
+        ^~~~~~~~~
+16:13:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:147:15: error: incompatible type for argument 1 of 'printf'
+        printf(CargaForzada());
+               ^~~~~~~~~~~~
+In file included from ..\src\tp1.c:47:0:
+c:\mingw\include\stdio.h:454:38: note: expected 'const char *' but argument is of type 'float'
+ _CRTIMP __cdecl __MINGW_NOTHROW  int printf (const char *, ...);
+                                      ^~~~~~
+..\src\tp1.c:66:8: warning: unused variable 'rtaCargaF' [-Wunused-variable]
+  float rtaCargaF;
+        ^~~~~~~~~
+16:13:31 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:66:8: warning: unused variable 'rtaCargaF' [-Wunused-variable]
+  float rtaCargaF;
+        ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:15:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:167:9: warning: 'respuesta' is used uninitialized in this function [-Wuninitialized]
+  return respuesta;
+         ^~~~~~~~~
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+..\src\tp1.c: In function 'main':
+..\src\tp1.c:66:8: warning: unused variable 'rtaCargaF' [-Wunused-variable]
+  float rtaCargaF;
+        ^~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:16:08 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:17:00 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:21:24 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:154:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                            ^
+..\src\biblioteca.c:154:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                                 ^
+..\src\biblioteca.c:155:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                             ^
+..\src\biblioteca.c:155:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                                  ^
+..\src\biblioteca.c:157:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                               ^
+..\src\biblioteca.c:157:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                                  ^
+..\src\biblioteca.c:160:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                            ^
+..\src\biblioteca.c:160:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                                 ^
+..\src\biblioteca.c:161:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                             ^
+..\src\biblioteca.c:161:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                                  ^
+..\src\biblioteca.c:163:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                               ^
+..\src\biblioteca.c:163:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                                  ^
+..\src\biblioteca.c:165:40: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                        ^
+..\src\biblioteca.c:165:45: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                             ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:21:55 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:154:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                            ^
+..\src\biblioteca.c:154:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                                 ^
+..\src\biblioteca.c:155:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                             ^
+..\src\biblioteca.c:155:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                                  ^
+..\src\biblioteca.c:157:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                               ^
+..\src\biblioteca.c:157:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                                  ^
+..\src\biblioteca.c:160:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c, %.5f \n", rtaDescAero , 36);
+                                            ^
+..\src\biblioteca.c:160:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c, %.5f \n", rtaDescAero , 36);
+                                                  ^
+..\src\biblioteca.c:161:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                             ^
+..\src\biblioteca.c:161:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                                  ^
+..\src\biblioteca.c:163:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                               ^
+..\src\biblioteca.c:163:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                                  ^
+..\src\biblioteca.c:165:40: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                        ^
+..\src\biblioteca.c:165:45: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                             ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:22:06 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:154:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                            ^
+..\src\biblioteca.c:154:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescLatam ,36);
+                                                 ^
+..\src\biblioteca.c:155:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                             ^
+..\src\biblioteca.c:155:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                                  ^
+..\src\biblioteca.c:157:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                               ^
+..\src\biblioteca.c:157:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                                  ^
+..\src\biblioteca.c:160:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                            ^
+..\src\biblioteca.c:160:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                                 ^
+..\src\biblioteca.c:161:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                             ^
+..\src\biblioteca.c:161:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                                  ^
+..\src\biblioteca.c:163:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                               ^
+..\src\biblioteca.c:163:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                                  ^
+..\src\biblioteca.c:165:40: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                        ^
+..\src\biblioteca.c:165:45: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                             ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:22:38 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:155:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                             ^
+..\src\biblioteca.c:155:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresLatam ,36);
+                                                  ^
+..\src\biblioteca.c:157:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                               ^
+..\src\biblioteca.c:157:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioLatam , 36);
+                                  ^
+..\src\biblioteca.c:160:44: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                            ^
+..\src\biblioteca.c:160:49: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("a) Precio con tarjeta de debito: %c %.5f \n", rtaDescAero , 36);
+                                                 ^
+..\src\biblioteca.c:161:45: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                             ^
+..\src\biblioteca.c:161:50: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("b) Precio con tarjeta de crédito: %c %.5f \n", rtaInteresAero , 36);
+                                                  ^
+..\src\biblioteca.c:163:31: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                               ^
+..\src\biblioteca.c:163:34: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("d) Precio unitario: %c %f \n", rtaPrecioUnitarioAero , 36);
+                                  ^
+..\src\biblioteca.c:165:40: warning: format '%c' expects argument of type 'int', but argument 2 has type 'double' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                        ^
+..\src\biblioteca.c:165:45: warning: format '%f' expects argument of type 'double', but argument 3 has type 'int' [-Wformat=]
+  printf("La diferencia de precio es : %c %.5f", rtaDifPrecio , 36);
+                                             ^
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:22:47 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:23:55 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:23:58 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:24:47 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+..\src\biblioteca.c: In function 'CargaForzada':
+..\src\biblioteca.c:162:9: warning: too many arguments for format [-Wformat-extra-args]
+  printf("c) Precio pagando con bitcoin : %lf \n", rtaBtcAero , "BTC");
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:25:16 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:26:30 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:41:10 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\biblioteca.o" "..\\src\\biblioteca.c" 
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file tp1.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+16:41:14 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+16:42:54 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:45:45 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1
+16:46:27 **** Incremental Build of configuration Debug for project tp1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\tp1.o" "..\\src\\tp1.c" 
+gcc -o tp1.exe "src\\biblioteca.o" "src\\tp1.o" 
+Info: Nothing to build for tp1

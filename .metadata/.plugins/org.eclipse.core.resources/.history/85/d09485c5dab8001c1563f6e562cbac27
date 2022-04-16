@@ -1,0 +1,74 @@
+#include "biblioteca.h"
+
+float IngresarNumero(){
+	float numero;
+
+	scanf("%f", &numero);
+
+	return numero;
+}
+
+float kmts(float x){
+ float kmts;
+	kmts = x;
+
+	return kmts;
+}
+
+float PrecioVueloAerolineas(float y )
+{
+	float PrecioVueloAerolineas;
+
+	PrecioVueloAerolineas = y;
+
+	return PrecioVueloAerolineas;
+}
+
+float PrecioVueloLatam(float z){
+ float PrecioVueloLatam;
+
+	PrecioVueloLatam = z;
+
+	return PrecioVueloLatam;
+}
+
+float DescTarjetaDevito(float num){
+	float DescTarjetaDevito;
+	float respuesta;
+
+	DescTarjetaDevito =( num*10)/100;
+
+	return respuesta;
+}
+float InteresTC(float num){
+
+	float respuesta;
+	float InteresTC;
+
+	InteresTC = (num*25)/100;
+
+	return respuesta;
+}
+long ValorBitcoin(long num){
+	 long respuesta;
+	 long bitcoin;
+	 long  ValorBitcoin;
+	 bitcoin = 4778869.90;
+
+	 ValorBitcoin = num / bitcoin;
+
+	 return respuesta;
+}
+
+float PrecioKmtrs(float num , float x){
+	float PrecioKmtrs;
+	 float respuesta;
+
+
+	 PrecioKmtrs = num / x;
+
+	 return respuesta;
+}
+
+
+

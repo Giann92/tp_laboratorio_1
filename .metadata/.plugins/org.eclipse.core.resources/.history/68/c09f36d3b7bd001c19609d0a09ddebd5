@@ -1,0 +1,25 @@
+
+
+#ifndef BIBLIOTECA_H_
+#define BIBLIOTECA_H_
+#include <stdio.h>
+/// @fn float IngresarNumero()
+/// @brief
+///
+/// @pre
+/// @post
+/// @return
+
+float IngresarNumero();
+float DescTarjetaDevitoLatam(float z , float x);
+float DescTarjetaDevitoAero(float y, float x);
+float InteresTCAero(float y, float x);
+float InteresTCLatam(float z, float x);
+long ValorBitcoinLatam(float z , float x);
+long ValorBitcoinAero(float y , float x);
+float PrecioKmtrsAero(float y, float x);
+float PrecioKmtrsLatam(float z, float x);
+float DifPrecio (float y , float z , float x);
+float CargaForzada(float y , float z , float x);
+
+#endif /* BIBLIOTECA_H_ */
